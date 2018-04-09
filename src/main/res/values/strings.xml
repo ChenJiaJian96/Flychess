@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">FlyingChess2.0</string>
+  <string name="NOW">现在轮到：</string>
+  <string name="dice_result">骰子结果为：</string>
+  <string name="player_choice">玩家选择为：</string>
+  <string name="PLAYER">玩家</string>
+  <string name="RED">红色</string>
+  <string name="YELLOW">黄色</string>
+  <string name="BLUE">蓝色</string>
+  <string name="GREEN">绿色</string>
+
+</resources>

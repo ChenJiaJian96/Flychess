@@ -1,0 +1,7 @@
+#Sun Apr 08 22:05:28 CST 2018
+base.0=E\:\\UnityProject\\Android\\FlyingChess3.0\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_46a0eff67a7b5785e5d21f10d312cd7f010fd5e1
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\UnityProject\\Android\\FlyingChess3.0\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d7e469b87f18c39750709f06ef1da67de7ca477d\\classes.dex
+base.1=E\:\\UnityProject\\Android\\FlyingChess3.0\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d7e469b87f18c39750709f06ef1da67de7ca477d
+file.0=E\:\\UnityProject\\Android\\FlyingChess3.0\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_46a0eff67a7b5785e5d21f10d312cd7f010fd5e1\\classes.dex

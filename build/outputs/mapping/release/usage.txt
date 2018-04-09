@@ -1,0 +1,38 @@
+FlyChess.Action:
+    39:44:public Action(FlyChess.Action)
+    56:56:public int getPlayerid()
+    60:60:public int getChessid()
+    64:64:public int getAction()
+    68:68:public int getStep()
+FlyChess.BasicAI:
+    65:65:public boolean isMyturn(int)
+FlyChess.GameManager:
+    87:92:public FlyChess.Queue getChessAvailable()
+    97:106:public void switchToAI(int)
+    110:119:public void switchToUser(int)
+    838:838:public static void main(java.lang.String[])
+FlyChess.Pair:
+    20:23:public Pair(FlyChess.Pair)
+FlyChess.PlayerAI
+FlyChess.Queue:
+    53:54:public java.lang.Object peek()
+    136:146:public static void main(java.lang.String[])
+com.unity3d.flyingchess.BuildConfig
+com.unity3d.flyingchess.MainActivity:
+    public static final java.lang.String TAG
+    private static final int TURN
+    private static final int REQUESTDICE
+    private static final int THROWDICE
+    private static final int SHOW_THROWDICE_BUTTON
+    private static final int SHOW_AVAILABLE_CHESS
+    private static final int EXECUTE_ACTION
+    private static final int SELECT_CHESS
+    290:297:private static java.lang.String diceToString(int)
+    301:304:private static int buttonColor(int)
+com.unity3d.flyingchess.R
+com.unity3d.flyingchess.R$attr
+com.unity3d.flyingchess.R$drawable
+com.unity3d.flyingchess.R$id
+com.unity3d.flyingchess.R$layout
+com.unity3d.flyingchess.R$string
+com.unity3d.flyingchess.R$style

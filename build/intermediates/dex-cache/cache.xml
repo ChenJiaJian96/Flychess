@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\UnityProject\Android\FlyingChess3.0\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="472864fac862f8d1d9eb2c7e556c3d59511e02ff">
+        <dex dex="E:\UnityProject\Android\FlyingChess3.0\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_46a0eff67a7b5785e5d21f10d312cd7f010fd5e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\UnityProject\Android\FlyingChess3.0\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
+        <dex dex="E:\UnityProject\Android\FlyingChess3.0\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d7e469b87f18c39750709f06ef1da67de7ca477d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\UnityProject\Android\FlyingChess3.0\libs\unity-classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2d302418aa3482b8db770278260340aed47dd37a">
+        <dex dex="E:\UnityProject\Android\FlyingChess3.0\build\intermediates\transforms\dex\debug\folders\1000\2\unity-classes_44b3a40b207c9637c989c2fbf8dc3f356d2fb62b\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\UnityProject\Android\FlyingChess3.0\libs\unity-classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2d302418aa3482b8db770278260340aed47dd37a">
+        <dex dex="E:\UnityProject\Android\FlyingChess3.0\build\intermediates\pre-dexed\debug\unity-classes_44b3a40b207c9637c989c2fbf8dc3f356d2fb62b.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,4 @@
+#Sat Apr 07 00:44:54 CST 2018
+base.0=E\:\\UnityProject\\Android\\FlyingChess3.0\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=E\:\\UnityProject\\Android\\FlyingChess3.0\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main\\classes.dex

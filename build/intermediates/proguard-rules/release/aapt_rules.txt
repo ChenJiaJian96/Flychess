@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:49
+-keep class com.unity3d.flyingchess.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.unity3d.flyingchess.UnityPlayerActivity { <init>(...); }
+
