@@ -12,7 +12,7 @@ public class BasicAI {
 
 
     //color 和 turn 一一对应
-    public BasicAI(int kind, int color){
+    public BasicAI(int kind,int color){
 
         if(illegalKind(kind)){
             System.out.println("illegal kind in BasicAI: BasicAI(int kind,int color)");
@@ -38,7 +38,7 @@ public class BasicAI {
     }
 
     //设置棋子
-    public void setChess(int index, Chess chess)
+    public void setChess(int index,Chess chess)
     {
         if(illegalIndex(index)){
             System.out.print("index out of range in BasicAI: setChess(int index,Chess chess)");
@@ -91,7 +91,7 @@ public class BasicAI {
     }
 
     //AI自动获取分数最高的棋子选择
-    public int ai_choice(int dice, Chess chessboard[])
+    public int ai_choice(int dice,Chess chessboard[])
     {
         Queue<Integer> queue = getAvailableMove();
         if(queue.isEmpty())
@@ -146,7 +146,7 @@ public class BasicAI {
     }
 
     //选择某个棋子获取的分数
-    private static int score(Chess chess, int dice, Chess chessboard[])
+    private static int score(Chess chess,int dice,Chess chessboard[])
     {
         if (chess.sprint())
         {
@@ -178,28 +178,24 @@ public class BasicAI {
                 else if(tmp.isLucky()) return 2000;
                 else
                 {
-                    if(chess.getColor() == Chess.RED) return 2000-(51-chess.getPos()-dice)*40;
+                    if(chess.getColor() == Chess.RED) return (chess.getPos()+dice)*40;
                     else if(chess.getColor() == Chess.YELLOW)
                     {
-                        if(chess.getPos() + dice >= 14 && chess.getPos() + dice <=51) return (64-chess.getPos()-dice)*40;
-                        else return (11 - (chess.getPos()+dice)%52)*40;
+                        if(chess.getPos() + dice >= 14 && chess.getPos() + dice <=51) return (52-(64-chess.getPos()-dice))*40;
+                        else return (52-(11 - (chess.getPos()+dice)%52))*40;
                     }
                     else if(chess.getColor() == Chess.BLUE)
                     {
-                        if(chess.getPos() + dice >= 27 && chess.getPos() + dice <=51) return (77-chess.getPos()-dice)*40;
-                        else return (24 - (chess.getPos()+dice)%52)*40;
+                        if(chess.getPos() + dice >= 27 && chess.getPos() + dice <=51) return (52-(77-chess.getPos()-dice))*40;
+                        else return (52-(24 - (chess.getPos()+dice)%52))*40;
                     }
                     else
                     {
-                        if(chess.getPos() + dice >= 40 && chess.getPos() + dice <=51) return (90-chess.getPos()-dice)*40;
-                        else return (37 - (chess.getPos()+dice)%52)*40;
+                        if(chess.getPos() + dice >= 40 && chess.getPos() + dice <=51) return (52-(90-chess.getPos()-dice))*40;
+                        else return (52-(37 - (chess.getPos()+dice)%52))*40;
                     }
                 }
             }
         }
     }
-
-
-
-
 }

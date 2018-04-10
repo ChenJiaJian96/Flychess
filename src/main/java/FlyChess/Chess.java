@@ -105,7 +105,7 @@ public class Chess {
 
     //index是chess在棋盘中的位置(属于哪个玩家，第几个棋子)
     //主要是玩家棋子的初始化
-    public Chess(Pair index, int color)
+    public Chess(Pair index,int color)
     {
         indexlist = new Queue<Pair>();
         indexlist.enqueue(index);
@@ -494,10 +494,10 @@ public class Chess {
     }
 
     /***************************************************************
-    *
-    * 检查范围的函数
-    *
-    ****************************************************************/
+     *
+     * 检查范围的函数
+     *
+     ****************************************************************/
     private boolean illegalColor(int color)
     {
         if(color < 0 || color >= 4)
