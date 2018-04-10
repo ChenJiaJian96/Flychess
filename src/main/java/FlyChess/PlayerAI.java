@@ -10,7 +10,7 @@ public class PlayerAI extends BasicAI {
         super(BasicAI.PEOPLE,color);
     }
 
-    public PlayerAI(int kind, int color)
+    public PlayerAI(int kind,int color)
     {
         super(kind,color);
     }
@@ -35,28 +35,36 @@ public class PlayerAI extends BasicAI {
         setKind(BasicAI.PEOPLE);
     }
 
-    public Queue<Integer> available_choice(int dice) {
-            Queue<Integer> queue = getAvailableMove();
-            Queue<Integer> choose = new Queue<Integer>();
+    public Queue<Integer> available_choice(int dice)
+    {
+        Queue<Integer> queue = getAvailableMove();
+        Queue<Integer> choose = new Queue<Integer>();
 
-        if(queue.isEmpty()) {
-            if(dice <= 4) return choose;
-            for (int i = 0; i < 4 ;i++) {
-                if(chesslist[i].getStatus() == Chess.STATUS_AIRPORT) {
+        if(queue.isEmpty())
+        {
+            if(dice <= 4) return  choose;
+            for (int i = 0; i < 4 ;i++)
+            {
+                if(chesslist[i].getStatus() == Chess.STATUS_AIRPORT)
+                {
                     choose.enqueue(i);
                 }
             }
             return choose;
         }
-        else {
-            while(!queue.isEmpty()) {
+        else
+        {
+            while(!queue.isEmpty())
+            {
                 int val = queue.dequeue();
                 choose.enqueue(val);
             }
-            if(dice >= 5) {
+            if(dice >= 5)
+            {
                 for (int i = 0; i < 4 ;i++)
                 {
-                    if(chesslist[i].getStatus() == Chess.STATUS_AIRPORT) {
+                    if(chesslist[i].getStatus() == Chess.STATUS_AIRPORT)
+                    {
                         choose.enqueue(i);
                     }
                 }
